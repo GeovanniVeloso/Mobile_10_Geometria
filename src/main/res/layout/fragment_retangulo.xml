@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RetanguloFragment">
+
+    <EditText
+        android:id="@+id/etBaseR"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="170dp"
+        android:ems="10"
+        android:hint="@string/Base"
+        android:inputType="numberDecimal"
+        android:textColorHint="@color/white"
+        android:importantForAutofill="no"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etHeightR"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_marginTop="40dp"
+        android:ems="10"
+        android:hint="@string/Height"
+        android:inputType="numberDecimal"
+        android:textColorHint="@color/white"
+        android:importantForAutofill="no"
+        app:layout_constraintStart_toStartOf="@+id/etBaseR"
+        app:layout_constraintTop_toBottomOf="@+id/etBaseR" />
+
+    <Button
+        android:id="@+id/btAreaR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="47dp"
+        android:layout_marginBottom="25dp"
+        android:text="@string/Area"
+        app:layout_constraintBottom_toTopOf="@+id/tvResR"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btPerimeterR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="73dp"
+        android:layout_marginEnd="45dp"
+        android:text="@string/Perimeter"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etHeightR" />
+
+    <TextView
+        android:id="@+id/tvResR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btPerimeterR" />
+</androidx.constraintlayout.widget.ConstraintLayout>

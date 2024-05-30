@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Geometria</string>
+    <string name="Circle">Circulo</string>
+    <string name="Retangle">Retangulo</string>
+    <string name="Base">Insira a Base</string>
+    <string name="Height">Insira a Altura</string>
+    <string name="Radius">Insira o Raio</string>
+    <string name="Area">Área</string>
+    <string name="Perimeter">Perímetro</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
